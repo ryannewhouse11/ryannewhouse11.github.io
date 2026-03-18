@@ -1,0 +1,48 @@
+
+body {
+    background-color: lightgray;
+}
+.outerDiv {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.projects {
+    padding: auto;
+    text-align: center;
+    width: 30%;
+    background-color: rgb(74, 144, 230);
+}
+
+a {
+    color:white;
+}
+
+.swap-container {
+    position: relative;
+    display:inline-block;
+    cursor: pointer;
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+}
+.initial-text {
+    text-align: center;
+    color: rgb(74, 144, 230);
+    transition: opacity 0.3s ease-in-out;
+}
+.hover-text {
+    position: relative ;
+    opacity: 0;
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+    white-space: nowrap;
+}
+
+.swap-container:hover .initial-text {
+    opacity: 0;
+}
+
+.swap-container:hover .hover-text {
+    opacity: 1;
+}
