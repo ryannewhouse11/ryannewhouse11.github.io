@@ -1,0 +1,43 @@
+p {
+    text-align: center; color:red;
+}
+
+#para1 {
+    text-align: center; color: blue;
+}
+
+.center {
+    text-align: center; color: green;
+}
+
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: skyblue;
+    text-align: center;
+}
+
+.left {text-align: left;}
+.green {color: green;}
+.wide {width:60%;}
+.attention {font-weight: bold;}
+
+.about {
+    background: #00b3d1;
+    width:25%;
+}
+
+.skills {
+    width: 25%;
+}
+
+.projects {
+    width: 25%;
+}
+
+.contact {
+    width: 25%;
+}
