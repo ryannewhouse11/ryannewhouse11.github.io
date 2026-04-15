@@ -1,16 +1,19 @@
 const title = document.getElementById("title");
 
-const originalText = "CSCE190 Website";
-const hoverText = "By Ryan Newhoue";
+const originalText = "CSCE 190 Website";
+const hoverText = "By: Ryan Newhouse";
 let typingInterval;
 
 function typeText(text) {
     let i = 0;
     clearInterval(typingInterval);
     typingInterval = setInterval(() => {
-        title.textContent = text.slice(0, i);
+        title.textContent = text.slice(0, i + 1);
         i++;
-        if (ii > text.length) clearInterval(typingInterval);
+        if (i > text.length) {
+            title.textContent = text;
+            clearInterval(typingInterval);
+        }
     }, 80);
 }
 
