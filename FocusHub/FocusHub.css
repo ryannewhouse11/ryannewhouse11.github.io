@@ -13,12 +13,15 @@ body {
     background-color: rgb(74, 144, 230);
 }
 
-.projects img {
-    max-width: 100%;
-    height: auto;
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* choose a color */
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
+
 
 .project {
     padding: 10px;
