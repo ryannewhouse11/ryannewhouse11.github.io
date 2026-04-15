@@ -14,8 +14,8 @@ body {
 }
 
 .project img{
-    width: 300px;
-    height: 300px;
+    width: 28%;
+    height: 200px;
     margin: 10px;
     border: 2px solid rgb(126, 14, 201); /* choose a color */
     display: block;
